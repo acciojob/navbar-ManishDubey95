@@ -5,6 +5,7 @@
 }
 nav{
     display: flex;
+	flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     background-color: #6e072d;
@@ -32,7 +33,19 @@ li{
     border-left: 2px solid white;
 }
 
-li:hover{
-    background-color: #b90e4d;
+.first:hover{
+	background-color: #b90e4d;
     cursor: pointer;
 }
+.last:hover{
+	background-color: #b90e4d;
+    cursor: pointer;
+}
+.lst:hover{
+	background-color: #b90e4d;
+    cursor: pointer;
+}
+/* li:hover{
+    background-color: #b90e4d;
+    cursor: pointer;
+} */
